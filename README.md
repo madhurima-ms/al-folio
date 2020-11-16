@@ -1,21 +1,21 @@
-# 
+# al-folio
 
-[![build status](https://travis-ci.org/alshedivat/.svg?branch=master)](https://travis-ci.org/alshedivat/)
-[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io//)
-[![gitter](https://badges.gitter.im/alshedivat/.svg)](https://gitter.im/alshedivat/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-![GitHub](https://img.shields.io/github/license/alshedivat/?color=blue)
-[![GitHub stars](https://img.shields.io/github/stars/alshedivat/)](https://github.com/alshedivat/)
-[![GitHub forks](https://img.shields.io/github/forks/alshedivat/)](https://github.com/alshedivat//fork)
+[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
+[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
+[![gitter](https://badges.gitter.im/alshedivat/al-folio.svg)](https://gitter.im/alshedivat/al-folio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+![GitHub](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)
+[![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
+[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
 
 A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
 If you like the theme, give it a star!
 
-[![Preview](assets/img/-preview.png)](https://alshedivat.github.io//)
+[![Preview](assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
 
 ## User community
 
-The vibrant community of **** users is growing!
+The vibrant community of **al-folio** users is growing!
 Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
 Check out the community webpages below.
 Feel free to add your own page(s) by sending a PR.
@@ -87,7 +87,7 @@ Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switchin
 
 ### Installation
 
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/` to `github.com:<your-username>/<your-repo-name>` and do the following:
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
@@ -117,11 +117,11 @@ baseurl:  # should be empty
 
 ### Upgrading from a previous version
 
-If you installed **** as described above, you can upgrade to the latest version as follows:
+If you installed **al-folio** as described above, you can upgrade to the latest version as follows:
 
 ```bash
 # Assuming the current directory is <your-repo-name>
-$ git remote add upstream https://github.com/alshedivat/.git
+$ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
 $ git rebase upstream/v0.3.1
 ```
@@ -160,23 +160,23 @@ To do this, edit the collections in the `_config.yml` file, create a correspondi
 
 ### Layouts
 
-**** comes with stylish layouts for pages and blog posts.
+**al-folio** comes with stylish layouts for pages and blog posts.
 
 #### The iconic style of Distill
 
 The theme allows you to create blog posts in the [distill.pub](https://distill.pub/) style:
 
-<p align="center"><a href="https://alshedivat.github.io//blog/2018/distill/" target="_blank"><img src="assets/img/distill-screenshot.png" width=700></a></p>
+<p align="center"><a href="https://alshedivat.github.io/al-folio/blog/2018/distill/" target="_blank"><img src="assets/img/distill-screenshot.png" width=700></a></p>
 
-For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io//blog/2018/distill/).
+For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/al-folio/blog/2018/distill/).
 
 #### Full support for math & code
 
-**** supports fast math typesetting through [KaTeX](https://katex.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
+**al-folio** supports fast math typesetting through [KaTeX](https://katex.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes):
 
 <p align="center">
-<a href="https://alshedivat.github.io//blog/2015/math/" target="_blank"><img src="assets/img/math-screenshot.png" width=400></a>
-<a href="https://alshedivat.github.io//blog/2015/code/" target="_blank"><img src="assets/img/code-screenshot.png" width=400></a>
+<a href="https://alshedivat.github.io/al-folio/blog/2015/math/" target="_blank"><img src="assets/img/math-screenshot.png" width=400></a>
+<a href="https://alshedivat.github.io/al-folio/blog/2015/code/" target="_blank"><img src="assets/img/code-screenshot.png" width=400></a>
 </p>
 
 #### Photos
@@ -185,7 +185,7 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
 Easily create beautiful grids within your blog posts and project pages:
 
 <p align="center">
-  <a href="https://alshedivat.github.io//projects/1_project/">
+  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
     <img src="assets/img/photos-screenshot.png" width="75%">
   </a>
 </p>
@@ -199,7 +199,7 @@ The default is purple, but you can quickly change it by editing `$theme-color` v
 Other color variables are listed there as well.
 
 #### Social media previews
-**** supports preview images on social media.
+**al-folio** supports preview images on social media.
 To enable this functionality you will need to set `serve_og_meta` to `true` in your `_config.yml`.
 Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
 
@@ -211,7 +211,7 @@ In both the page-specific and site-wide cases, the `og_image` variable needs to 
 
 ## Contributing
 
-Contributions to  are very welcome!
+Contributions to al-folio are very welcome!
 Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
 
 If you would like to improve documentation, add your webpage to the list below, or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`.
@@ -221,22 +221,22 @@ For more complex issues/bugs or feature requests, please open an issue using the
 ## FAQ
 
 Here are some frequently asked questions.
-If you have a different question, please ask on [gitter](https://gitter.im/alshedivat/).
+If you have a different question, please ask on [gitter](https://gitter.im/alshedivat/al-folio).
 
 1. **Q:** When I preview my website locally everything looks great, but when I deploy it on GitHub bibliography Liquid tags are not recognized.
    How do I fix this? <br>
    **A:** GitHub Pages rendering does not support certain Jekyll plugins, and `jekyll-scholar` that we use to render bibliography is one of them. Please make sure you deploy your website to GitHub using `bin/deploy` script that circumvents the issue.
 
-2. **Q:** When I deploy my fork of , it says `Deployed successfully!`
+2. **Q:** When I deploy my fork of al-folio, it says `Deployed successfully!`
    But when I open `<my-github-username>.github.io`, I get `Page not found (404)` error.
    How do I fix this? <br>
    **A:** For personal webpages, please run `bin/deploy --user`.
-   (See also relevant past issues: [#5](https://github.com/alshedivat//issues/5), [#49](https://github.com/alshedivat//issues/49), [#86](https://github.com/alshedivat//issues/86).)
+   (See also relevant past issues: [#5](https://github.com/alshedivat/al-folio/issues/5), [#49](https://github.com/alshedivat/al-folio/issues/49), [#86](https://github.com/alshedivat/al-folio/issues/86).)
 
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-Originally, **** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
+Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
 Since then, it got a full re-write of the styles and many additional cool features.
